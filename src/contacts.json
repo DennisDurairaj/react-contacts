@@ -1,0 +1,36 @@
+[{
+        "id": "0",
+        "name": "Dennis Durairaj",
+        "age": "25",
+        "gender": "male",
+        "email": "email1@email.com"
+    },
+    {
+        "id": "1",
+        "name": "Bob Rock",
+        "age": "50",
+        "gender": "female",
+        "email": "email2@email.com"
+    },
+    {
+        "id": "2",
+        "name": "James Hetfield",
+        "age": "34",
+        "gender": "male",
+        "email": "email3@email.com"
+    },
+    {
+        "id": "3",
+        "name": "Kirk Hammett",
+        "age": "85",
+        "gender": "male",
+        "email": "email4@email.com"
+    },
+    {
+        "id": "4",
+        "name": "Lars Ulrich",
+        "age": "75",
+        "gender": "male",
+        "email": "email5@email.com"
+    }
+]
