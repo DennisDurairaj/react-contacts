@@ -1,12 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import ContactsList from "./ContactsList";
+import ContactsWidget from "./ContactsWidget";
 
 const App = () => {
   return (
     <div>
-      Hello
-      <ContactsList />
+      <ContactsWidget />
     </div>
   );
 };

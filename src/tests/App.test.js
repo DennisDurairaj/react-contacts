@@ -1,7 +1,7 @@
 import React from "react";
 import { shallow } from "enzyme";
 import App from "../components/App.js";
-import ContactsList from "../components/ContactsList.js";
+import ContactsWidget from "../components/ContactsWidget.js";
 
 describe("<App />", () => {
   let wrapper;
@@ -11,7 +11,7 @@ describe("<App />", () => {
   it("renders correctly", () => {
     expect(wrapper.exists()).toBe(true);
   });
-  it("renders a <ContactsList />", () => {
-    expect(wrapper.contains(<ContactsList />)).toBe(true);
+  it("renders a <ContactsWidget />", () => {
+    expect(wrapper.contains(<ContactsWidget />)).toBe(true);
   });
 });
