@@ -1,5 +1,6 @@
 import React from "react";
 import Button from '@material-ui/core/Button';
+import Form from './Form';
 
 const styles = {
   button: {
@@ -8,7 +9,12 @@ const styles = {
 };
 
 const ToggleableAddForm = () => {
-  return <Button color="primary" style={styles.button}>Add Contact</Button>;
+  return (
+    <div>
+      <Button color="primary" style={styles.button}>Add Contact</Button>
+      <Form/>
+    </div>
+  );
 };
 
 export default ToggleableAddForm;

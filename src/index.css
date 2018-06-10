@@ -1,3 +1,11 @@
 .center {
   margin: 0 auto;
 }
+
+.full-width {
+  width: 100%;
+}
+
+.center-align {
+  text-align: center
+}
