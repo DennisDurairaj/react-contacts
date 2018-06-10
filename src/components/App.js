@@ -1,11 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import CssBaseline from '@material-ui/core/CssBaseline';
 import ContactsWidget from "./ContactsWidget";
 
 const App = () => {
   return (
     <div>
-      <ContactsWidget />
+      <CssBaseline/>
+      <ContactsWidget/>
     </div>
   );
 };

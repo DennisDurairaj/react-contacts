@@ -1,11 +1,11 @@
 import React from "react";
+import ListItemMUI from '@material-ui/core/ListItem';
+import ListItemText from '@material-ui/core/ListItemText';
 
 const ListItem = props => (
-  <div>
-    <h3>{props.name}</h3>
-    <p>{props.age}</p>
-    <p>{props.gender}</p>
-  </div>
+  <ListItemMUI>
+    <ListItemText primary={props.name} secondary={`${props.age}, ${props.gender}`}></ListItemText>
+  </ListItemMUI>
 );
 
 export default ListItem;
