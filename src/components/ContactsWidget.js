@@ -3,12 +3,18 @@ import List from "./List";
 import contacts from "../contacts.json";
 import ToggleableAddForm from "./ToggleableAddForm";
 
-const ContactsWidget = () => (
-  <div container="true" justify="center" spacing={0}>
-    <List contacts={contacts}/>
-    <ToggleableAddForm/>
-  </div>
-
-);
+class ContactsWidget extends React.Component {
+  state = {
+    contacts: contacts
+  }
+  render() {
+    return (
+      <div container="true" justify="center" spacing={0}>
+        <List contacts={this.state.contacts}/>
+        <ToggleableAddForm/>
+      </div>
+    );
+  }
+}
 
 export default ContactsWidget;
